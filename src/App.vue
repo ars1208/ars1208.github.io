@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <Header></Header>
+    <side-navigation></side-navigation>
     <v-main>
       <router-view />
     </v-main>
@@ -9,13 +9,13 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Header from "@/components/Header.vue";
+import SideNavigation from "@/components/SideNavigation.vue";
 
 export default Vue.extend({
   name: "App",
 
   components: {
-    Header,
+    SideNavigation,
   },
 });
 </script>
