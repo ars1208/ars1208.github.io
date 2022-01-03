@@ -1,9 +1,17 @@
 <template>
   <v-app>
-    <side-navigation></side-navigation>
-    <v-main>
-      <router-view />
-    </v-main>
+    <v-container fluid class="ma-0 pa-0">
+      <v-row>
+        <v-col cols="3">
+          <side-navigation></side-navigation>
+        </v-col>
+        <v-col>
+          <v-main>
+            <router-view />
+          </v-main>
+        </v-col>
+      </v-row>
+    </v-container>
   </v-app>
 </template>
 
@@ -19,3 +27,6 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+</style>
