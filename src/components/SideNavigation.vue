@@ -3,32 +3,20 @@
     <div class="side-nav__avator">
       <v-img
         class="side-nav__img"
-        src="@/assets/logo.png"
+        src="@/assets/icon.png"
         height="200px"
         width="200px"
       >
       </v-img>
     </div>
     <h1 class="side-nav__name">KAZUKI ARASHI</h1>
-    <v-card>
-      <v-list>
-        <v-list-item>
-          <v-list-item-content> ABOUT ME </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-          <v-list-item-content> EXPERIENCE </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-          <v-list-item-content> EDUCATION </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-          <v-list-item-content> SKILLS </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-          <v-list-item-content> INTERESTS </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-card>
+    <ul class="side-nav__menu">
+      <li>ABOUT ME</li>
+      <li>EXPERIENCE</li>
+      <li>EDUCATION</li>
+      <li>SKILLS</li>
+      <li>INTERESTS</li>
+    </ul>
   </div>
 </template>
 
@@ -57,5 +45,13 @@
   color: #f8f9fc;
   text-align: center;
   margin: 50px auto;
+}
+.side-nav__menu {
+  color: #545051;
+  font-size: 24px;
+  padding: 0;
+  margin: 100px 0;
+  list-style: none;
+  text-align: center;
 }
 </style>
