@@ -23,7 +23,7 @@ export default Vue.extend({
   name: "App",
 
   components: {
-    SideNavigation,
+    SideNavigation
   },
 });
 </script>
