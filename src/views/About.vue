@@ -1,6 +1,6 @@
 <template>
-  <div class="experience__main">
-    <h1>Experience</h1>
+  <div class="about__main">
+    <h1>KAZUKI ARASHI</h1>
     <p>sample info</p>
   </div>
 </template>
@@ -9,14 +9,14 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "Experience",
+  name: "About",
 
   components: {},
 });
 </script>
 
 <style scoped>
-.experience__main {
+.about__main {
   height: 100vh;
 }
 </style>
