@@ -26,6 +26,7 @@
   height: 100vh;
   padding-top: 50px;
   min-width: 300px;
+  position: fixed;
 }
 .side-nav__avator {
   height: 250px;
