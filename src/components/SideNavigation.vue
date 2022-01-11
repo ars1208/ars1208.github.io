@@ -11,14 +11,29 @@
     </div>
     <h1 class="side-nav__name">KAZUKI ARASHI</h1>
     <ul class="side-nav__menu">
-      <li>ABOUT ME</li>
-      <li>EXPERIENCE</li>
-      <li>EDUCATION</li>
-      <li>SKILLS</li>
-      <li>INTERESTS</li>
+      <li :class="{ 'side-nav__menu_active': isActiveAbout }">ABOUT ME</li>
+      <li class="side-nav__menu_experience">EXPERIENCE</li>
+      <li class="side-nav__menu_education">EDUCATION</li>
+      <li class="side-nav__menu_skills">SKILLS</li>
+      <li class="side-nav__menu_interests">INTERESTS</li>
     </ul>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from "vue";
+
+export default Vue.extend({
+  name: "App",
+  data() {
+    return {
+      isActiveAbout: true
+    }
+  },
+  components: {},
+});
+</script>
+
 
 <style scoped>
 .side-nav__main {
@@ -54,5 +69,8 @@
   margin: 100px 0;
   list-style: none;
   text-align: center;
+}
+.side-nav__menu_active {
+  color: #F8F9FC;
 }
 </style>
