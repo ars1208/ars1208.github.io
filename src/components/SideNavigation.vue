@@ -12,10 +12,10 @@
     <h1 class="side-nav__name">KAZUKI ARASHI</h1>
     <ul class="side-nav__menu">
       <li :class="{ 'side-nav__menu_active': isActiveAbout }">ABOUT ME</li>
-      <li class="side-nav__menu_experience">EXPERIENCE</li>
-      <li class="side-nav__menu_education">EDUCATION</li>
-      <li class="side-nav__menu_skills">SKILLS</li>
-      <li class="side-nav__menu_interests">INTERESTS</li>
+      <li :class="{ 'side-nav__menu_active': isActiveExperience }">EXPERIENCE</li>
+      <li :class="{ 'side-nav__menu_active': isActiveEducation }">EDUCATION</li>
+      <li :class="{ 'side-nav__menu_active': isActiveSkills }">SKILLS</li>
+      <li :class="{ 'side-nav__menu_active': isActiveInterests }">INTERESTS</li>
     </ul>
   </div>
 </template>
@@ -27,7 +27,11 @@ export default Vue.extend({
   name: "App",
   data() {
     return {
-      isActiveAbout: true
+      isActiveAbout: true,
+      isActiveExperience: false,
+      isActiveEducation: false,
+      isActiveSkills: false,
+      isActiveInterests: false
     }
   },
   components: {},
