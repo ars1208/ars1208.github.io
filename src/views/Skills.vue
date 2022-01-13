@@ -1,7 +1,7 @@
 <template>
   <div class="experience__main">
     <h1>Skills</h1>
-    <p>sample info</p>
+    <p></p>
   </div>
 </template>
 
