@@ -1,7 +1,22 @@
 <template>
   <div class="experience__main">
     <h1>Skills</h1>
-    <p></p>
+    <div>
+      <h2>Programing</h2>
+      <ul>
+        <li>Python3</li>
+        <li>TypeScript</li>
+        <li>Vue.js</li>
+        <li>Java</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Language</h2>
+      <ul>
+        <li>Japanese</li>
+        <li>English</li>
+      </ul>
+    </div>
   </div>
 </template>
 
