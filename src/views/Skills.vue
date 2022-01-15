@@ -17,6 +17,14 @@
         <li>English</li>
       </ul>
     </div>
+    <div>
+      <h2>Certification</h2>
+      <ul>
+        <li>基本情報技術者</li>
+        <li>応用情報技術者</li>
+        <li>Microsoft Azure Fundamentals (AZ-900)</li>
+      </ul>
+    </div>
   </div>
 </template>
 
