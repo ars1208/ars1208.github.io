@@ -34,7 +34,7 @@ export default Vue.extend({
       isActiveInterests: false
     }
   },
-  components: {},
+  computed: {},
 });
 </script>
 
