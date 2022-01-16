@@ -1,7 +1,7 @@
 <template>
-  <div class="experience__main">
+  <div class="skills__main">
     <h1>Skills</h1>
-    <div>
+    <div class="skills__category">
       <h2>Programing</h2>
       <ul>
         <li>Python3</li>
@@ -10,14 +10,14 @@
         <li>Java</li>
       </ul>
     </div>
-    <div>
+    <div class="skills__category">
       <h2>Language</h2>
       <ul>
         <li>Japanese</li>
         <li>English</li>
       </ul>
     </div>
-    <div>
+    <div class="skills__category">
       <h2>Certification</h2>
       <ul>
         <li>基本情報技術者</li>
@@ -39,7 +39,12 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.experience__main {
+.skills__main {
   height: 100vh;
+}
+.skills__category {
+  border: solid 1px #5b67a2;
+  height: 300px;
+  width: 300px;
 }
 </style>
