@@ -4,7 +4,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <v-card height="300px">
+          <v-card height="300px" color="#5B67A2">
             <h2>Programing</h2>
             <ul>
               <li>Python3</li>
@@ -15,7 +15,7 @@
           </v-card>
         </v-col>
         <v-col>
-          <v-card height="300px">
+          <v-card height="300px" color="#5B67A2">
             <h2>Language</h2>
             <ul>
               <li>Japanese</li>
@@ -24,7 +24,7 @@
           </v-card>
         </v-col>
         <v-col>
-          <v-card height="300px">
+          <v-card height="300px" color="#5B67A2">
             <h2>Certification</h2>
             <ul>
               <li>基本情報技術者</li>
@@ -51,10 +51,5 @@ export default Vue.extend({
 <style scoped>
 .skills__main {
   height: 100vh;
-}
-.skills__category {
-  border: solid 1px #5b67a2;
-  height: 300px;
-  width: 300px;
 }
 </style>
