@@ -2,7 +2,7 @@
   <div>
     <v-container fluid class="ma-0 pa-0">
       <v-row>
-        <v-col cols="3">
+        <v-col cols="3" class="px-0">
           <side-navigation></side-navigation>
         </v-col>
         <v-col>
