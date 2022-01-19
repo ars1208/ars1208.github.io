@@ -1,6 +1,10 @@
 <template>
   <div class="about__main">
     <h1>KAZUKI ARASHI</h1>
+    <ul>
+      <li>GitHub</li>
+      <li>AtCoder</li>
+    </ul>
     <p>sample info</p>
   </div>
 </template>
