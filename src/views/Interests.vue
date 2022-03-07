@@ -1,7 +1,13 @@
 <template>
   <div class="experience__main">
     <h1>Interests</h1>
-    <p>sample info</p>
+    <ul>
+      <li>Web Application</li>
+      <li>DevOps</li>
+      <li>Network</li>
+      <li>Algorythm</li>
+      <li>Cloud</li>
+    </ul>
   </div>
 </template>
 
