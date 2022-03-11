@@ -4,6 +4,7 @@
     <ul>
       <li>GitHub</li>
       <li>AtCoder</li>
+      <li>Gmail</li>
     </ul>
     <p>sample info</p>
   </div>
