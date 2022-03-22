@@ -1,5 +1,5 @@
 <template>
-  <div class="experience__main">
+  <div id="experience" class="experience__main">
     <h1>Experience</h1>
     <p>sample info</p>
   </div>

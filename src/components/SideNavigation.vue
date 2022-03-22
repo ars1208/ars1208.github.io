@@ -11,11 +11,11 @@
     </div>
     <h1 class="side-nav__name">KAZUKI ARASHI</h1>
     <ul class="side-nav__menu">
-      <li :class="{ 'side-nav__menu_active': isActiveAbout }">ABOUT ME</li>
-      <li :class="{ 'side-nav__menu_active': isActiveExperience }">EXPERIENCE</li>
-      <li :class="{ 'side-nav__menu_active': isActiveEducation }">EDUCATION</li>
-      <li :class="{ 'side-nav__menu_active': isActiveSkills }">SKILLS</li>
-      <li :class="{ 'side-nav__menu_active': isActiveInterests }">INTERESTS</li>
+      <li><a href="#about" class="side-nav__menu-item" :class="{ 'side-nav__menu_active': isActiveAbout }">ABOUT ME</a></li>
+      <li><a href="#experience" class="side-nav__menu-item" :class="{ 'side-nav__menu_active': isActiveExperience }">EXPERIENCE</a></li>
+      <li><a href="#education" class="side-nav__menu-item" :class="{ 'side-nav__menu_active': isActiveEducation }">EDUCATION</a></li>
+      <li><a href="#skills" class="side-nav__menu-item" :class="{ 'side-nav__menu_active': isActiveSkills }">SKILLS</a></li>
+      <li><a href="#interests" class="side-nav__menu-item" :class="{ 'side-nav__menu_active': isActiveInterests }">INTERESTS</a></li>
     </ul>
   </div>
 </template>
@@ -34,7 +34,6 @@ export default Vue.extend({
       isActiveInterests: false
     }
   },
-  computed: {},
 });
 </script>
 
@@ -67,12 +66,17 @@ export default Vue.extend({
   margin: 50px auto;
 }
 .side-nav__menu {
-  color: #545051;
   font-size: 24px;
   padding: 0;
   margin: 100px 0;
   list-style: none;
   text-align: center;
+}
+.side-nav__menu-item {
+  color: #545051;
+  margin: 5px 0;
+  cursor: pointer;
+  text-decoration: none;
 }
 .side-nav__menu_active {
   color: #F8F9FC;

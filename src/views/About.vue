@@ -1,5 +1,5 @@
 <template>
-  <div class="about__main">
+  <div id="about" class="about__main">
     <h1>KAZUKI ARASHI</h1>
     <ul>
       <li>GitHub</li>

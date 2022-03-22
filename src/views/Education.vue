@@ -1,5 +1,5 @@
 <template>
-  <div class="experience__main">
+  <div id="education" class="experience__main">
     <h1>Education</h1>
     <div>
       <h2>筑波大学大学院</h2>
