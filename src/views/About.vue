@@ -6,7 +6,7 @@
       <li>AtCoder</li>
       <li>Gmail</li>
     </ul>
-    <p>sample info</p>
+    <p>1994年生まれ。</p>
   </div>
 </template>
 
