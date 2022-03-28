@@ -4,6 +4,7 @@
     <ul>
       <li><div class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></div></li>
       <li><div class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></div></li>
+      <li><div class="about__info_icon-bg"><i class="fa fa-facebook about__info_icon"></i></div></li>
       <li><div class="about__info_icon-bg"><i class="fa fa-google about__info_icon"></i></div></li>
     </ul>
     <p>1994年生まれ。</p>
