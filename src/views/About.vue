@@ -2,10 +2,9 @@
   <div id="about" class="about__main">
     <h1>KAZUKI ARASHI</h1>
     <ul>
-      <li><div class="about__info_icon-bg"><img src="../assets/github-brands.svg" alt="GitHub" class="about__info_icon" /></div></li>
-      <li><div class="about__info_icon-bg"><img src="../assets/linkedin-in-brands.svg" alt="Linketin" class="about__info_icon" /></div></li>
-      <li>AtCoder</li>
-      <li>Gmail</li>
+      <li><div class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></div></li>
+      <li><div class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></div></li>
+      <li><div class="about__info_icon-bg"><i class="fa fa-google about__info_icon"></i></div></li>
     </ul>
     <p>1994年生まれ。</p>
   </div>
@@ -34,7 +33,8 @@ export default Vue.extend({
   align-items: center;
 }
 .about__info_icon {
-  height: 30px;
+  font-size: 30px;
+  color: #f8f9fc;
   display: block;
   margin: auto;
 }
