@@ -2,10 +2,10 @@
   <div id="about" class="about__main">
     <h1>KAZUKI ARASHI</h1>
     <ul class="about__info_contacts">
-      <li><div class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></div></li>
-      <li><div class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></div></li>
-      <li><div class="about__info_icon-bg"><i class="fa fa-facebook about__info_icon"></i></div></li>
-      <li><div class="about__info_icon-bg"><i class="fa fa-google about__info_icon"></i></div></li>
+      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></div></li>
+      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></div></li>
+      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-facebook about__info_icon"></i></div></li>
+      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-google about__info_icon"></i></div></li>
     </ul>
     <p>1994年生まれ。</p>
   </div>
@@ -27,6 +27,10 @@ export default Vue.extend({
 }
 .about__info_contacts {
   list-style: none;
+}
+.about__info_contact {
+  display: inline-block;
+  margin: 0 5px;
 }
 .about__info_icon-bg {
   height: 50px;
