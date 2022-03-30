@@ -27,6 +27,8 @@ export default Vue.extend({
 }
 .about__info_contacts {
   list-style: none;
+  padding: 0;
+  margin: 20px 0;
 }
 .about__info_contact {
   display: inline-block;
