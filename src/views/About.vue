@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="about__main">
-    <h1>KAZUKI ARASHI</h1>
+    <h1 class="about__name">KAZUKI ARASHI</h1>
     <ul class="about__info_contacts">
       <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></div></li>
       <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></div></li>
@@ -25,10 +25,13 @@ export default Vue.extend({
 .about__main {
   height: 100vh;
 }
+.about__name {
+  font-size: 60px;
+}
 .about__info_contacts {
   list-style: none;
   padding: 0;
-  margin: 20px 0;
+  margin-bottom: 40px;
 }
 .about__info_contact {
   display: inline-block;
