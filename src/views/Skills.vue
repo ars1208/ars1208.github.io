@@ -4,7 +4,7 @@
     <v-container>
       <v-row>
         <v-col>
-          <v-card height="300px" color="#5B67A2" rounded="lg">
+          <v-card height="300px" color="#5B67A2" rounded="lg" class="pa-3">
             <h2>Programing</h2>
             <ul>
               <li>Python3</li>
@@ -15,7 +15,7 @@
           </v-card>
         </v-col>
         <v-col>
-          <v-card height="300px" color="#5B67A2" rounded="lg">
+          <v-card height="300px" color="#5B67A2" rounded="lg" class="pa-3">
             <h2>Language</h2>
             <ul>
               <li>Japanese</li>
@@ -24,7 +24,7 @@
           </v-card>
         </v-col>
         <v-col>
-          <v-card height="300px" color="#5B67A2" rounded="lg">
+          <v-card height="300px" color="#5B67A2" rounded="lg" class="pa-3">
             <h2>Certification</h2>
             <ul>
               <li>基本情報技術者</li>
