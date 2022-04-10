@@ -2,10 +2,10 @@
   <div id="about" class="about__main">
     <h1 class="about__name">KAZUKI ARASHI</h1>
     <ul class="about__info_contacts">
-      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></div></li>
-      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></div></li>
-      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-facebook about__info_icon"></i></div></li>
-      <li class="about__info_contact"><div class="about__info_icon-bg"><i class="fa fa-google about__info_icon"></i></div></li>
+      <li class="about__info_contact"><button class="about__info_icon-bg"><i class="fa fa-github about__info_icon"></i></button></li>
+      <li class="about__info_contact"><button class="about__info_icon-bg"><i class="fa fa-linkedin about__info_icon"></i></button></li>
+      <li class="about__info_contact"><button class="about__info_icon-bg"><i class="fa fa-facebook about__info_icon"></i></button></li>
+      <li class="about__info_contact"><button class="about__info_icon-bg"><i class="fa fa-google about__info_icon"></i></button></li>
     </ul>
     <p>1994年生まれ。</p>
   </div>
@@ -44,6 +44,9 @@ export default Vue.extend({
   border-radius: 50%;
   display: flex;
   align-items: center;
+}
+.about__info_icon-bg:hover {
+  opacity: 0.8;
 }
 .about__info_icon {
   font-size: 30px;
