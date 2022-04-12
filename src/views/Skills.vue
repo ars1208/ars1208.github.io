@@ -9,8 +9,8 @@
             <ul>
               <li>Python3</li>
               <li>TypeScript</li>
-              <li>Vue.js</li>
               <li>Java</li>
+              <li>Vue.js</li>
             </ul>
           </v-card>
         </v-col>
