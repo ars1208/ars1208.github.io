@@ -1,11 +1,11 @@
 <template>
-  <div id="education" class="experience__main">
+  <div id="education" class="education__main">
     <h1>Education</h1>
-    <div>
+    <div class="education__content">
       <h2>筑波大学大学院</h2>
       <p>図書館情報メディア研究科 図書館情報メディア専攻</p>
     </div>
-    <div>
+    <div class="education__content">
       <h2>筑波大学</h2>
       <p>情報学群 知識情報図書館学類</p>
     </div>
@@ -23,7 +23,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.experience__main {
+.education__main {
   height: 100vh;
 }
 </style>
