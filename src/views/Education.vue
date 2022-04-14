@@ -1,6 +1,6 @@
 <template>
   <div id="education" class="education__main">
-    <h1>Education</h1>
+    <h1 class="education__title">Education</h1>
     <div class="education__content">
       <h2>筑波大学大学院</h2>
       <p>図書館情報メディア研究科 図書館情報メディア専攻</p>
@@ -25,5 +25,9 @@ export default Vue.extend({
 <style scoped>
 .education__main {
   height: 100vh;
+}
+.education__title {
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 </style>
