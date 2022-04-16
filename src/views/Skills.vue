@@ -34,6 +34,38 @@
           </v-card>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col>
+          <v-card height="300px" color="#5B67A2" rounded="lg" class="pa-3">
+            <h2>Technology Stack</h2>
+            <ul>
+              <li>Docker</li>
+              <li>Git</li>
+              <li>Jenkins</li>
+              <li>Envoy</li>
+            </ul>
+          </v-card>
+        </v-col>
+        <v-col>
+          <v-card height="300px" color="#5B67A2" rounded="lg" class="pa-3">
+            <h2>Language</h2>
+            <ul>
+              <li>Japanese</li>
+              <li>English</li>
+            </ul>
+          </v-card>
+        </v-col>
+        <v-col>
+          <v-card height="300px" color="#5B67A2" rounded="lg" class="pa-3">
+            <h2>Certification</h2>
+            <ul>
+              <li>基本情報技術者</li>
+              <li>応用情報技術者</li>
+              <li>Microsoft Azure Fundamentals (AZ-900)</li>
+            </ul>
+          </v-card>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
