@@ -40,6 +40,7 @@
             <h2>Technology Stack</h2>
             <ul>
               <li>Docker</li>
+              <li>Kubernetes</li>
               <li>Git</li>
               <li>Jenkins</li>
               <li>Envoy</li>
