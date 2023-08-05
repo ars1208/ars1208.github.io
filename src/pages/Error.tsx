@@ -1,4 +1,5 @@
 import React from 'react';
+import notfoundlogo from '../404.png'
 import '../App.css';
 
 function Error() {
@@ -6,8 +7,9 @@ function Error() {
     <div className="App">
       <header className="App-header">
         <p>
-          Error
+          404 not found
         </p>
+        <img src={notfoundlogo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
