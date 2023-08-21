@@ -1,5 +1,5 @@
 import React from 'react';
-import notfoundlogo from '../404.png'
+import notFoundLogo from '../404.png'
 import '../App.css';
 
 function Error() {
@@ -9,7 +9,7 @@ function Error() {
         <p>
           404 not found
         </p>
-        <img src={notfoundlogo} className="App-logo" alt="logo" />
+        <img src={notFoundLogo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
